@@ -22,3 +22,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 * 3과 5의 배수를 모은 집합(set)을 구한다 
 * 이를 전부 합한다 
+
+
+
+**[학습 내용]**
+
+* List comprehension 

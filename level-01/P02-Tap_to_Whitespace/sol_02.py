@@ -18,5 +18,6 @@ os.system(f"cp {path} {path+'.bak'}") # backup
 
 with open(path, 'r') as f: 
     src = f.read() 
-    with open(path, 'w') as writelist:
+
+    with open("edit.py", 'w') as writelist:
         writelist.write(src.replace("\t", "    ") # 

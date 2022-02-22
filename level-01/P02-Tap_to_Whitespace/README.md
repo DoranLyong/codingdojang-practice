@@ -17,3 +17,26 @@ A씨를 도와줄 수 있도록 소스코드내에 사용된 탭(Tab) 문자를 
 * 코드 파일 읽어 들이기 
 * Tap(`\t`) 인 부분을 공백 4개(`"    "`) 로 바꾸기 
 * 바꾼 내용을 새로 저장하기 
+
+
+
+**[학습 내용]**
+
+* 파일 읽고 쓰기 ; 
+
+  ```python
+  with open(<file_name>, 'r') as f: 
+      src = f.read()    # 읽기 
+      with open(<save_name>, 'w') as wf: 
+          wf.write(src.replace("\t", "    "))
+  ```
+
+* [string replace](https://ooyoung.tistory.com/77) 
+
+  ```python
+  a = "hello world"
+  a.replace("hello", "hi")
+  ```
+
+  
+
